@@ -1,0 +1,68 @@
+/* User.css */
+/* Add your CSS styles here */
+.user-type-selection {
+    text-align: center;
+    margin-top: 50px;
+
+    
+}
+
+.user-type-selection h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.user-type-selection div {
+    margin-bottom: 10px;
+
+}
+
+.user-type-selection a {
+    display:inline-table;
+    padding: 15px 60px;
+    border-radius: 50px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.user-type-selection a:hover {
+    background-color: #2980b9;
+}
+
+.blurbox{
+    backdrop-filter: blur(8px);
+        background-color: rgba(212, 32, 32, 0.5);
+
+        
+                --s: 34px;
+                /* control the size (the circle diameter) */
+                --c1: rgba(244, 248, 31, 0.5);
+                --c2: rgba(87, 168, 206, 0.5);
+        
+                --_g: radial-gradient(calc(var(--s)/2), var(--c1) 97%, #0000);
+                background:
+                    var(--_g), var(--_g) calc(2*var(--s)) calc(2*var(--s)),
+                    repeating-conic-gradient(from 45deg, #0000 0 25%, var(--c2) 0 50%) calc(-.707*var(--s)) calc(-.707*var(--s)),
+                    repeating-linear-gradient(135deg, var(--c1) calc(var(--s)/-2) calc(var(--s)/2), var(--c2) 0 calc(2.328*var(--s)));
+                background-size: calc(4*var(--s)) calc(4*var(--s));
+                /* 
+            0.707 = sqrt(2)/2
+            2.328 = 2*sqrt(2) - .5
+          */
+      
+        /* Adjust the background opacity */
+        border-radius: 15px;
+        padding: 20px;
+        margin:  auto;
+        margin-bottom: 10%;
+        /* Center the box horizontally */
+        width: 300px;
+        height: 150px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        /* Optional: Add a shadow */
+}
+
